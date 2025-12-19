@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "RRR",
+    "RRR",
+    "RRR"
+  ],
+  "key": {
+    "R": { "item": "mysecondmod:ruby" }
+  },
+  "result": {
+    "item": "mysecondmod:ruby_block",
+    "count": 1
+  }
+}

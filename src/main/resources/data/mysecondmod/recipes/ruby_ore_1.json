@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "OOO",
+    "ORO",
+    "OOO"
+  ],
+  "key": {
+    "R": { "item": "mysecondmod:ruby" },
+    "O": { "item": "minecraft:stone" }
+  },
+  "result": {
+    "item": "mysecondmod:ruby_ore",
+    "count": 1
+  }
+}

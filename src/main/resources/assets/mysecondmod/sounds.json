@@ -1,0 +1,17 @@
+{
+  "ruby_break": {
+    "sounds": [{"name": "mysecondmod:ruby_break", "stream": true}]
+  },
+  "ruby_step": {
+    "sounds": [{"name": "mysecondmod:ruby_step", "stream": true}]
+  },
+  "ruby_place": {
+    "sounds": [{"name": "mysecondmod:ruby_place", "stream": true}]
+  },
+  "ruby_hit": {
+    "sounds": [{"name": "mysecondmod:ruby_hit", "stream": true}]
+  },
+  "ruby_fall": {
+    "sounds": [{"name": "mysecondmod:ruby_fall", "stream": true}]
+  }
+}
