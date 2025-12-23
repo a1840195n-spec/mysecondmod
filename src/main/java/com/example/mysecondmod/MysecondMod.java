@@ -60,11 +60,11 @@ public class MysecondMod {
                     .strength(3.0f, 6.0f)//Указание прочности и взрывоустойчивости
                     .lightLevel((state) -> 2) // Указания уровня испускаемого света
                     .requiresCorrectToolForDrops() //Необходимые предметы для добычи исходя из прочности
-                    //.sound(new SoundType(1.0F, 1.0F,RUBY_BREAK.get(),//Добавление кастом звуков
-                           //RUBY_STEP.get(),
-                           //RUBY_PLACE.get(),
-                          //RUBY_HIT.get(),
-                            //RUBY_FALL.get())) //указание звука добычи
+                    .sound(new SoundType(1.0F, 1.0F,RUBY_BREAK.get(),//Добавление кастом звуков
+                           RUBY_STEP.get(),
+                           RUBY_PLACE.get(),
+                          RUBY_HIT.get(),
+                            RUBY_FALL.get())) //указание звука добычи
             );
 
     public static final DeferredItem<BlockItem> RUBY_BLOCK_ITEM = ITEMS.registerSimpleBlockItem("ruby_block", RUBY_BLOCK);//Регистрация предмета для блока
@@ -85,6 +85,7 @@ public class MysecondMod {
         ITEMS.register(modEventBus);
         BLOCKS.register(modEventBus);
         TABS.register(modEventBus);
+        SOUNDS.register(modEventBus);
         LOGGER.info("MysecondMod готов! Ruby загружен! 💎");
     }
 

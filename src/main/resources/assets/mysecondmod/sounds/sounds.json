@@ -1,0 +1,28 @@
+{
+  "ruby_break": {
+    "sounds": [
+      "mysecondmod:ruby_break"
+    ]
+  },
+  "ruby_step": {
+    "sounds": [
+      "mysecondmod:ruby_step"
+    ]
+  },
+  "ruby_hit": {
+    "sounds": [
+      "mysecondmod:ruby_hit"
+    ]
+  },
+  "ruby_place": {
+    "sounds": [
+      "mysecondmod:ruby_place"
+    ]
+  },
+  "ruby_fall": {
+    "sounds": [
+      "mysecondmod:ruby_fall"
+    ]
+  }
+}
+
