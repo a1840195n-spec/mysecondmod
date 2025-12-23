@@ -9,7 +9,7 @@
     "R": { "item": "mysecondmod:ruby" }
   },
   "result": {
-    "item": "mysecondmod:ruby_block",
+    "id": "mysecondmod:ruby_block",
     "count": 1
   }
 }

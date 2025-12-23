@@ -10,7 +10,7 @@
     "O": { "item": "minecraft:stone" }
   },
   "result": {
-    "item": "mysecondmod:ruby_ore",
+    "id": "mysecondmod:ruby_ore",
     "count": 1
   }
 }
