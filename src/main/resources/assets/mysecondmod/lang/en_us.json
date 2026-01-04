@@ -5,8 +5,14 @@
   "block.mysecondmod.ruby_ore": "Ruby ore",
   "item.mysecondmod.ruby_ore": "Ruby ore",
   "item.mysecondmod.ruby" : "Ruby",
+
   "item.mysecondmod.river_of_despair_disc" : "River Of Despair",
   "item.mysecondmod.river_of_despair_disc.desc" : "Music Disc by Ridiculon",
   "jukebox_song.mysecondmod.river_of_despair": "River Of Despair",
-  "subtitles.mysecondmod.river_of_despair": "Epic music plays"
+  "subtitles.mysecondmod.river_of_despair": "Epic music plays",
+
+  "item.mysecondmod.hotline_miami_hydrogen_disc" : "Hotline Miami Hydrogen",
+  "item.mysecondmod.hotline_miami_hydrogen_disc.desc" : "Music Disc by M|O|O|N",
+  "jukebox_song.mysecondmod.hotline_miami_hydrogen": "Hotline Miami Hydrogen",
+  "subtitles.mysecondmod.hotline_miami_hydrogen": "Music from Hotline Miami plays"
 }

@@ -31,6 +31,14 @@
         "stream": true
       }
     ]
+  },
+  "hotline_miami_hydrogen": {
+    "sounds": [
+      {
+        "name": "mysecondmod:music/hotline_miami_hydrogen",
+        "stream": true
+      }
+    ]
   }
 }
 

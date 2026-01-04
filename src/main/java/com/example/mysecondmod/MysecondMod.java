@@ -44,6 +44,9 @@ public class MysecondMod {
     public static final DeferredHolder<SoundEvent, SoundEvent> RIVER_OF_DESPAIR = SOUNDS.register("river_of_despair", () -> SoundEvent.createVariableRangeEvent(ResourceLocation.fromNamespaceAndPath(MODID, "river_of_despair")));//Регистрация звука пластинки
     public static final ResourceKey<JukeboxSong> RIVER_OF_DESPAIR_KEY = ResourceKey.create(Registries.JUKEBOX_SONG, ResourceLocation.fromNamespaceAndPath(MODID, "river_of_despair_key"));//Создание ключа для пластинки
 
+    public static final DeferredHolder<SoundEvent, SoundEvent> HOTLINE_MIAMI_HYDROGEN = SOUNDS.register("hotline_miami_hydrogen", () -> SoundEvent.createVariableRangeEvent(ResourceLocation.fromNamespaceAndPath(MODID, "hotline_miami_hydrogen")));//Регистрация звука пластинки
+    public static final ResourceKey<JukeboxSong> HOTLINE_MIAMI_HYDROGEN_KEY = ResourceKey.create(Registries.JUKEBOX_SONG, ResourceLocation.fromNamespaceAndPath(MODID, "hotline_miami_hydrogen_key"));//Создание ключа для пластинки
+
 
     public static final DeferredItem<Item> RUBY = ITEMS.registerSimpleItem("ruby"); //Регистрация рубина
 
@@ -76,6 +79,8 @@ public class MysecondMod {
     public static final DeferredItem<BlockItem> RUBY_BLOCK_ITEM = ITEMS.registerSimpleBlockItem("ruby_block", RUBY_BLOCK);//Регистрация предмета для блока
 
     public static final DeferredItem<Item> RIVER_OF_DESPAIR_DISC = ITEMS.register("river_of_despair_disc", () -> new Item(new Item.Properties().stacksTo(1).rarity(Rarity.RARE).jukeboxPlayable(RIVER_OF_DESPAIR_KEY)));//Регистрация пластинки
+    public static final DeferredItem<Item> HOTLINE_MIAMI_HYDROGEN_DISC = ITEMS.register("hotline_miami_hydrogen_disc", () -> new Item(new Item.Properties().stacksTo(1).rarity(Rarity.RARE).jukeboxPlayable(HOTLINE_MIAMI_HYDROGEN_KEY)));//Регистрация пластинки
+
 
     public static final Supplier<CreativeModeTab> MYSECOND_TAB = TABS.register("mysecond_tab", //Регистрация вкладки в креативе для мода
             () -> CreativeModeTab.builder()
@@ -86,6 +91,7 @@ public class MysecondMod {
                         output.accept(RUBY_ORE_ITEM.get());
                         output.accept(RUBY.get());
                         output.accept(RIVER_OF_DESPAIR_DISC.get());
+                        output.accept(HOTLINE_MIAMI_HYDROGEN_DISC.get());
                     })
                     .build()
     );

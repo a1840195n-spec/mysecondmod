@@ -1,0 +1,8 @@
+{
+  "sound_event": "mysecondmod:hotline_miami_hydrogen",
+  "description": {
+    "translate": "jukebox_song.mysecondmod.hotline_miami_hydrogen"
+  },
+  "length_in_seconds": 289,
+  "comparator_output": 15
+}
