@@ -34,7 +34,6 @@ public class MysecondMod {
     public static final DeferredRegister.Blocks BLOCKS = DeferredRegister.createBlocks(MODID); // Указание на регистрацию блоков в моде
     public static final DeferredRegister<SoundEvent> SOUNDS = DeferredRegister.create(Registries.SOUND_EVENT, MODID); //Регистрация кастомных звуков
     public static final DeferredRegister<CreativeModeTab> TABS = DeferredRegister.create(Registries.CREATIVE_MODE_TAB, MODID); //Указание на регистрацию новых табов в креативе
-    //public static final DeferredRegister<SoundEvent> SOUND_EVENTS = DeferredRegister.create(BuiltInRegistries.SOUND_EVENT, MODID);//Регистр на использование звуковых событий. Используется для создания пластинок
 
     public static final Supplier<SoundEvent> RUBY_BREAK = SOUNDS.register("ruby_break", () -> SoundEvent.createVariableRangeEvent(ResourceLocation.fromNamespaceAndPath(MODID, "ruby_break")));
     public static final Supplier<SoundEvent> RUBY_STEP = SOUNDS.register("ruby_step", () -> SoundEvent.createVariableRangeEvent(ResourceLocation.fromNamespaceAndPath(MODID, "ruby_step")));
