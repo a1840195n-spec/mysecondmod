@@ -13,5 +13,10 @@
   "item.mysecondmod.hotline_miami_hydrogen_disc" : "Hotline Miami Hydrogen",
   "item.mysecondmod.hotline_miami_hydrogen_disc.desc" : "Музыкальный диск от M|O|O|N",
   "jukebox_song.mysecondmod.hotline_miami_hydrogen": "Hotline Miami Hydrogen",
-  "subtitles.mysecondmod.hotline_miami_hydrogen": "Звучит музыка из хотлика"
+  "subtitles.mysecondmod.hotline_miami_hydrogen": "Звучит музыка из хотлика",
+
+  "item.mysecondmod.buckshot_roulette_disc" : "Buckshot Roulette",
+  "item.mysecondmod.buckshot_roulette_disc.desc" : "Музыка от Mike Klubnica",
+  "jukebox_song.mysecondmod.buckshot_roulette": "Buckshot Roulette",
+  "subtitles.mysecondmod.buckshot_roulette": "...Перед каждой перезарядкой..."
 }

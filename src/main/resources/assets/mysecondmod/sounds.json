@@ -39,6 +39,14 @@
         "stream": true
       }
     ]
+  },
+  "buckshot_roulette": {
+    "sounds": [
+      {
+        "name": "mysecondmod:music/buckshot_roulette",
+        "stream": true
+      }
+    ]
   }
 }
 
