@@ -4,5 +4,9 @@
   "item.mysecondmod.ruby_block": "Ruby block",
   "block.mysecondmod.ruby_ore": "Ruby ore",
   "item.mysecondmod.ruby_ore": "Ruby ore",
-  "item.mysecondmod.ruby" : "Ruby"
+  "item.mysecondmod.ruby" : "Ruby",
+  "item.mysecondmod.river_of_despair_disc" : "River Of Despair",
+  "item.mysecondmod.river_of_despair_disc.desc" : "Music Disc by AlexZander",
+  "jukebox_song.mysecondmod.river_of_despair": "River Of Despair",
+  "subtitles.mysecondmod.river_of_despair": "Epic music plays"
 }

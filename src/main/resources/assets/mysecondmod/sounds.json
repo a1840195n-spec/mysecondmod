@@ -23,6 +23,14 @@
     "sounds": [
       "mysecondmod:ruby_fall"
     ]
+  },
+  "river_of_despair": {
+    "sounds": [
+      {
+        "name": "mysecondmod:music/river_of_despair",
+        "stream": true
+      }
+    ]
   }
 }
 

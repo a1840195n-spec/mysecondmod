@@ -1,5 +1,6 @@
 {
   "type": "minecraft:crafting_shaped",
+  "category": "equipment",
   "pattern": [
     "RRR",
     "RRR",
@@ -9,7 +10,7 @@
     "R": { "item": "mysecondmod:ruby" }
   },
   "result": {
-    "id": "mysecondmod:ruby_block",
-    "count": 1
+    "count": 1,
+    "id": "mysecondmod:ruby_block"
   }
 }

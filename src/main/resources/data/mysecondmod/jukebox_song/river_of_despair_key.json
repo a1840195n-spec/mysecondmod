@@ -1,0 +1,8 @@
+{
+  "sound_event": "mysecondmod:river_of_despair",
+  "description": {
+    "translate": "jukebox_song.mysecondmod.river_of_despair"
+  },
+  "length_in_seconds": 247,
+  "comparator_output": 15
+}

@@ -1,0 +1,4 @@
+{
+  "parent": "item/generated",
+  "textures": { "layer0": "mysecondmod:item/river_of_despair_disc" }
+}

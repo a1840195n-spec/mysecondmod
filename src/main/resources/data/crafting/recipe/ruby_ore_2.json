@@ -1,5 +1,6 @@
 {
   "type": "minecraft:crafting_shaped",
+  "category": "equipment",
   "pattern": [
     "BBB",
     "BRB",
@@ -7,10 +8,10 @@
   ],
   "key": {
     "R": { "item": "mysecondmod:ruby" },
-    "O": { "item": "minecraft:cobblestone" }
+    "B": { "item": "minecraft:cobblestone" }
   },
   "result": {
-    "id": "mysecondmod:ruby_ore",
-    "count": 1
+    "count": 1,
+    "id": "mysecondmod:ruby_ore"
   }
 }
